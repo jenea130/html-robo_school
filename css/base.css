@@ -1,0 +1,60 @@
+:root {
+    --accent: #141024;
+    --contrast: #D52027;
+    --font-1: "Jost", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    font-size: 18px;
+    font-family: var(--font-1);
+    color: var(--accent);
+    background: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: none;
+    width: 1px;
+    height: 100vh;
+    background: green;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+}
+
+.title {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.text {
+    line-height: 1.6;
+}

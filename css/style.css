@@ -33,3 +33,43 @@
     font-weight: 600;
     font-style: normal;
 }
+
+.home-intro {
+    position: relative;
+    height: 1080px;
+    color: white;
+    background: var(--accent);
+    z-index: 1;
+}
+
+.home-intro__wrap {
+    position: relative;
+}
+
+.home-intro__content {
+    padding-top: 344px;
+}
+
+.home-intro__title {
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+}
+
+.home-intro__text {
+    margin-bottom: 50px;
+    width: 478px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+.home-intro__img {
+    position: absolute;
+    top: 161px;
+    right: -170px;
+    width: 783px;
+}

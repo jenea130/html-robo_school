@@ -1,6 +1,7 @@
 :root {
     --accent: #141024;
     --contrast: #D52027;
+    --contrast-hover: #8d191d;
     --font-1: "Jost", sans-serif;
 }
 
@@ -33,7 +34,7 @@ body::after {
     position: absolute;
     top: 0;
     left: 50%;
-    display: none;
+    /* display: none; */
     width: 1px;
     height: 100vh;
     background: green;
@@ -45,7 +46,7 @@ li {
 
 .container {
     margin: 0 auto;
-    max-width: 1280px;
+    max-width: 1160px;
     width: 100%;
 }
 
@@ -57,4 +58,18 @@ li {
 
 .text {
     line-height: 1.6;
+}
+
+.btn {
+    display: inline-flex;
+    padding: 27px 54px;
+    color: white;
+    background: var(--contrast);
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: white;
+    background: var(--contrast-hover);
 }

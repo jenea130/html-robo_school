@@ -1,4 +1,5 @@
 {
-    "vim.vimrc.path": "/home/lex/doki/vscode/.vimrc",
-    "vim.vimrc.enable": true
+    "vim.vimrc.path": "~/.vscode/.vimrc",
+    "vim.vimrc.enable": true,
+    "vim.sneak": true
 }

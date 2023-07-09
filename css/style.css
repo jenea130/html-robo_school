@@ -34,6 +34,43 @@
     font-style: normal;
 }
 
+.main-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px 0;
+    width: 100%;
+    z-index: 2;
+    color: white;
+}
+
+.main-header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header__logo {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main-header__menu {
+    display: flex;
+}
+
+.main-header__menu a {
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.main-header__phone {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 .home-intro {
     position: relative;
     height: 1080px;
@@ -65,7 +102,6 @@
     font-size: 20px;
     line-height: 1.6;
 }
-
 
 .home-intro__img {
     position: absolute;

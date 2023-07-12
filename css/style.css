@@ -1,160 +1,225 @@
 @font-face {
-    font-family: 'Jost';
-    src: url('../fonts/Jost-Regular.eot');
-    src: local('../fonts/Jost Regular'), local('../fonts/Jost-Regular'),
-        url('../fonts/Jost-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Jost-Regular.woff2') format('woff2'),
-        url('../fonts/Jost-Regular.woff') format('woff'),
-        url('../fonts/Jost-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Jost';
+	src: url('../fonts/Jost-Regular.eot');
+	src: local('../fonts/Jost Regular'), local('../fonts/Jost-Regular'),
+	url('../fonts/Jost-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Jost-Regular.woff2') format('woff2'),
+	url('../fonts/Jost-Regular.woff') format('woff'),
+	url('../fonts/Jost-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Jost';
-    src: url('../fonts/Jost-Bold.eot');
-    src: local('../fonts/Jost Bold'), local('../fonts/Jost-Bold'),
-        url('../fonts/Jost-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Jost-Bold.woff2') format('woff2'),
-        url('../fonts/Jost-Bold.woff') format('woff'),
-        url('../fonts/Jost-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+	font-family: 'Jost';
+	src: url('../fonts/Jost-Bold.eot');
+	src: local('../fonts/Jost Bold'), local('../fonts/Jost-Bold'),
+	url('../fonts/Jost-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Jost-Bold.woff2') format('woff2'),
+	url('../fonts/Jost-Bold.woff') format('woff'),
+	url('../fonts/Jost-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Jost';
-    src: url('../fonts/Jost-SemiBold.eot');
-    src: local('../fonts/Jost SemiBold'), local('../fonts/Jost-SemiBold'),
-        url('../fonts/Jost-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Jost-SemiBold.woff2') format('woff2'),
-        url('../fonts/Jost-SemiBold.woff') format('woff'),
-        url('../fonts/Jost-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
+	font-family: 'Jost';
+	src: url('../fonts/Jost-SemiBold.eot');
+	src: local('../fonts/Jost SemiBold'), local('../fonts/Jost-SemiBold'),
+	url('../fonts/Jost-SemiBold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Jost-SemiBold.woff2') format('woff2'),
+	url('../fonts/Jost-SemiBold.woff') format('woff'),
+	url('../fonts/Jost-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
 }
 
 .main-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 30px 0;
-    width: 100%;
-    z-index: 2;
-    color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 30px 0;
+	width: 100%;
+	z-index: 2;
+	color: white;
 }
 
 .main-header__wrap {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .main-header__logo {
-    font-size: 30px;
-    font-weight: 700;
-    text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 .main-header__menu {
-    display: flex;
+	display: flex;
 }
 
 .main-header__menu a {
-    padding: 0 20px;
-    font-size: 20px;
+	padding: 0 20px;
+	font-size: 20px;
 }
 
 .main-header__phone {
-    font-size: 30px;
-    font-weight: 600;
-    text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 
 .home-intro {
-    position: relative;
-		margin-bottom: 120px;
-    height: 1080px;
-    color: white;
-    background: var(--accent);
-    z-index: 1;
+	position: relative;
+	margin-bottom: 120px;
+	height: 1080px;
+	color: white;
+	background: var(--accent);
+	z-index: 1;
 }
 
 .home-intro__wrap {
-    position: relative;
+	position: relative;
 }
 
 .home-intro__content {
-    padding-top: 344px;
+	padding-top: 344px;
 }
 
 .home-intro__title {
-    display: flex;
-    margin-bottom: 20px;
-    font-size: 70px;
-    font-weight: 600;
-    line-height: 160%;
-    text-transform: uppercase;
+	display: flex;
+	margin-bottom: 20px;
+	font-size: 70px;
+	font-weight: 600;
+	line-height: 160%;
+	text-transform: uppercase;
 }
 
 .home-intro__text {
-    margin-bottom: 50px;
-    width: 478px;
-    font-size: 20px;
-    line-height: 1.6;
+	margin-bottom: 50px;
+	width: 478px;
+	font-size: 20px;
+	line-height: 1.6;
 }
 
 .home-intro__img {
-    position: absolute;
-    top: 161px;
-    right: -170px;
-    width: 783px;
+	position: absolute;
+	top: 161px;
+	right: -170px;
+	width: 783px;
 }
 
 .features {
-    margin-bottom: 220px;
+	margin-bottom: 120px;
 }
 
 .features__text {
-    margin-bottom: 66px;
-    width: 891px;
-    height: 144px;
-    font-size: 30px;
-    line-height: 48px;
+	margin-bottom: 66px;
+	width: 891px;
+	height: 144px;
+	font-size: 30px;
+	line-height: 48px;
 }
 
 .features__text strong {
-    font-size: 30px;
-    font-weight: 600;
+	font-size: 30px;
+	font-weight: 600;
 }
 
 .features__wrap {
-    display: flex;
+	display: flex;
 }
 
 .features__item:first-of-type {
-    margin-right: 31px;
-    flex: 0 0 270px;
+	margin-right: 31px;
+	flex: 0 0 270px;
 }
 
 .features__item:nth-of-type(2) {
-    margin-right: 82px;
-    flex: 0 0 218px;
+	margin-right: 82px;
+	flex: 0 0 218px;
 }
 
 .features__item:nth-of-type(3) {
-    margin-right: 37px;
-    flex: 0 0 264px;
+	margin-right: 37px;
+	flex: 0 0 264px;
 }
 
 .features__number {
-    margin-bottom: 8px;
-    color: var(--contrast);
-    font-size: 70px;
-    font-weight: 600;
+	margin-bottom: 8px;
+	color: var(--contrast);
+	font-size: 70px;
+	font-weight: 600;
 }
 
 .features__description {
-    opacity: .7;
+	opacity: .7;
 }
 
+.advantages {
+	padding-top: 106px;
+	padding-bottom: 100px;
+	background: #f9f9f9;
+}
+
+.advantages__wrap {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 20px;
+}
+
+.advantages__item {
+	flex-basis: 360px;
+}
+
+.advantages__header {
+	display: flex;
+}
+
+.advantages__info {
+	position: relative;
+}
+
+.advantages__info:hover .advantages__popup {
+  opacity: 1;	
+}
+
+.advantages__popup {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	top: -112%;
+	left: 19px;
+	width: 250px;
+	height: 56px;
+	letter-spacing: -1px;
+	transition: all .5s;
+	opacity: 0;
+
+}
+
+.advantages__icon {
+	cursor: pointer;
+}
+
+.advantages__title {
+	padding-bottom: 60px;
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 160%;
+}
+
+.advantages__subtitle {
+	margin-right: 12px;
+	margin-bottom: 20px;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 160%;
+}
+
+.advantages__text {
+	line-height: 160%;
+}

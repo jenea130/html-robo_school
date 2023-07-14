@@ -2,10 +2,10 @@
 	font-family: 'Jost';
 	src: url('../fonts/Jost-Regular.eot');
 	src: local('../fonts/Jost Regular'), local('../fonts/Jost-Regular'),
-	url('../fonts/Jost-Regular.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/Jost-Regular.woff2') format('woff2'),
-	url('../fonts/Jost-Regular.woff') format('woff'),
-	url('../fonts/Jost-Regular.ttf') format('truetype');
+		url('../fonts/Jost-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Jost-Regular.woff2') format('woff2'),
+		url('../fonts/Jost-Regular.woff') format('woff'),
+		url('../fonts/Jost-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -14,10 +14,10 @@
 	font-family: 'Jost';
 	src: url('../fonts/Jost-Bold.eot');
 	src: local('../fonts/Jost Bold'), local('../fonts/Jost-Bold'),
-	url('../fonts/Jost-Bold.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/Jost-Bold.woff2') format('woff2'),
-	url('../fonts/Jost-Bold.woff') format('woff'),
-	url('../fonts/Jost-Bold.ttf') format('truetype');
+		url('../fonts/Jost-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Jost-Bold.woff2') format('woff2'),
+		url('../fonts/Jost-Bold.woff') format('woff'),
+		url('../fonts/Jost-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
@@ -26,10 +26,10 @@
 	font-family: 'Jost';
 	src: url('../fonts/Jost-SemiBold.eot');
 	src: local('../fonts/Jost SemiBold'), local('../fonts/Jost-SemiBold'),
-	url('../fonts/Jost-SemiBold.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/Jost-SemiBold.woff2') format('woff2'),
-	url('../fonts/Jost-SemiBold.woff') format('woff'),
-	url('../fonts/Jost-SemiBold.ttf') format('truetype');
+		url('../fonts/Jost-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Jost-SemiBold.woff2') format('woff2'),
+		url('../fonts/Jost-SemiBold.woff') format('woff'),
+		url('../fonts/Jost-SemiBold.ttf') format('truetype');
 	font-weight: 600;
 	font-style: normal;
 }
@@ -183,7 +183,7 @@
 }
 
 .advantages__info:hover .advantages__popup {
-  opacity: 1;	
+	opacity: 1;
 }
 
 .advantages__popup {
@@ -222,4 +222,91 @@
 
 .advantages__text {
 	line-height: 160%;
+}
+
+.trainers {
+	padding-top: 124px;
+}
+
+.trainers__title {
+	margin-bottom: 63px;
+}
+
+.trainers__wrap {
+	margin-bottom: 65px;
+}
+
+.trainers__img {
+	position: relative;
+	height: 500px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.trainers__img img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.slick-list {
+	margin: 0 -20px;
+}
+
+.slick-slide {
+	margin: 0 20px;
+}
+
+.trainers__content {
+	padding-top: 20px;
+}
+
+.trainers__subtitle {
+	margin-bottom: 16px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.trainers__text {
+	margin-bottom: 20px;
+}
+
+.trainers__link {
+	font-size: 18px;
+	color: #D52027;
+}
+
+.trainers__footer {
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 10px;
+}
+
+.trainers__arrow--next {
+	margin-left: 10px;
+}
+
+.slick-dots {
+	position: relative;
+    bottom: -85px;	
+	display: flex;
+}
+
+.slick-dots button {
+	display: none;
+}
+
+.slick-dots li {
+	width: 150px;
+	height: 5px;
+	border-radius: 40px;
+	background: rgba(20, 16, 36, 0.08);
+	cursor: pointer;
+}
+
+.slick-dots li.slick-active {
+	background: black;
 }

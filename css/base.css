@@ -17,7 +17,9 @@ a {
 }
 
 body {
+
     position: relative;
+    padding-bottom: 2000px;
     font-size: 18px;
     font-family: var(--font-1);
     color: var(--accent);
@@ -48,6 +50,7 @@ li {
     margin: 0 auto;
     max-width: 1160px;
     width: 100%;
+    /* outline: 1px solid red; */
 }
 
 .container-big {

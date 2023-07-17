@@ -225,6 +225,7 @@
 }
 
 .trainers {
+	margin-bottom: 118px;
 	padding-top: 124px;
 }
 
@@ -295,7 +296,7 @@
 
 .slick-dots {
 	position: relative;
-    bottom: -66px;	
+	bottom: -66px;
 	display: inline-flex;
 }
 
@@ -314,3 +315,52 @@
 .slick-dots li.slick-active {
 	background: black;
 }
+
+.cards__title {
+	margin-bottom: 83px;
+}
+
+.cards__wrap {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 40px;
+}
+
+.cards__item {
+	flex: 1;
+	text-align: center;
+	padding: 40px;
+	border-radius: 20px;
+	border: 1px solid rgba(20, 16, 36, 0.20);
+	transition: color .4s, background .4s, transform 2s;
+}
+
+.cards__item:hover {
+	color: white;
+	background: var(--accent);
+	transform: scale(1.08);
+}
+
+.cards__logo {
+	margin-bottom: 70px;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.cards__price {
+	margin-bottom: 24px;
+	font-size: 50px;
+	font-weight: 600;
+}
+
+.cards__text {
+	margin-bottom: 30px;
+	line-height: 1.6;
+	min-height: 58px;
+}
+
+.cards__btn {
+	width: 100%;
+	text-align: center;
+}
+

@@ -159,7 +159,7 @@
 }
 
 .advantages {
-	padding-top: 106px;
+	padding-top: 102px;
 	padding-bottom: 100px;
 	background: #f9f9f9;
 }
@@ -233,7 +233,7 @@
 }
 
 .trainers__wrap {
-	margin-bottom: 65px;
+	margin-bottom: 37px;
 }
 
 .trainers__img {
@@ -285,14 +285,18 @@
 	padding-right: 10px;
 }
 
+.trainers__arrow {
+	cursor: pointer;
+}
+
 .trainers__arrow--next {
 	margin-left: 10px;
 }
 
 .slick-dots {
 	position: relative;
-    bottom: -85px;	
-	display: flex;
+    bottom: -66px;	
+	display: inline-flex;
 }
 
 .slick-dots button {

@@ -53,7 +53,8 @@ li {
 
 .container-big {
     margin: 0 auto;
-    max-width: 1720px;
+    padding: 0 15px;
+    max-width: 1750px;
     width: 100%;
 }
 
